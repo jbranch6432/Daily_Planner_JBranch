@@ -11,14 +11,14 @@ $(document).ready(function () {
   //
 
 $('.saveBtn').on('click', function() {
-  var key = $(this).siblings('.description').val();
-  var value = $(this).parent().attr('id');
+  var value = $(this).siblings('.description').val();
+  var key = $(this).parent().attr('id');
    
 
   //save items to local storage
   localStorage.setItem(key, value);
 
-  //Show user that entry was saved to localStorage
+  //Show user that entry was saved to localStorage just above the hours section
   $('.notification').addClass('show');
 
   console.log(localStorage);

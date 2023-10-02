@@ -16,7 +16,7 @@ This application is a simple daily calendar that helps user save events hourly d
 ## Links to Application
 https://github.com/jbranch6432/Daily_Planner_JBranch
 
-
+https://jbranch6432.github.io/Daily_Planner_JBranch/
 
 ## License
 ![Static Badge](https://img.shields.io/badge/MIT_License-blue)
